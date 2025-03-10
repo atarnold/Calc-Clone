@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <div id="calculator">
+        <input id="display"  readonly>
+        <div id="keys">
+            <button type="button" onclick="clearDisplay('AC')" class="AC">AC</button>
+            <button type="button" onclick="appendToDisplay('+/-')" class="neg">+/-</button>
+            <button type="button" onclick="appendToDisplay('%')" class="perc">%</button>
+            <button type="button" onclick="appendToDisplay('÷')" class="div">÷</button>
+            <button type="button" onclick="appendToDisplay('7')" class="k7">7</button>
+            <button type="button" onclick="appendToDisplay('8')" class="k8">8</button>
+            <button type="button" onclick="appendToDisplay('9')" class="k9">9</button>
+            <button type="button" onclick="appendToDisplay('*')" class="mul">*</button>
+            <button type="button" onclick="appendToDisplay('4')" class="k4">4</button>
+            <button type="button" onclick="appendToDisplay('5')" class="k5">5</button>
+            <button type="button" onclick="appendToDisplay('6')" class="k6">6</button>
+            <button type="button" onclick="appendToDisplay('-')" class="min">-</button>
+            <button type="button" onclick="appendToDisplay('1')" class="k1">1</button>
+            <button type="button" onclick="appendToDisplay('2')" class="k2">2</button>
+            <button type="button" onclick="appendToDisplay('3')" class="k3">3</button>
+            <button type="button" onclick="appendToDisplay('+')"class="add">+</button>
+            <button type="button" onclick="appendToDisplay('0')" class="NaN">0</button>
+            <button type="button" onclick="appendToDisplay('0')" class="dec">.</button>
+            <button type="button" onclick="calculate('=')" class="res">=</button>
+        </div>
+    </div>
+    
+    
+    <script src="script.js"></script>
+</body>
+</html>
